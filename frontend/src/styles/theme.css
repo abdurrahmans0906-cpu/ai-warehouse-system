@@ -1,0 +1,86 @@
+/* 🌑 BACKGROUND */
+body {
+  margin: 0;
+  background: #0a0f1c;
+  color: #e2e8f0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* 🔵 NEON GLOW */
+.neon {
+  color: #38bdf8;
+  text-shadow: 0 0 10px #38bdf8;
+}
+
+/* 🧊 CARD STYLE */
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 20px;
+
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+}
+
+/* 🔘 BUTTON */
+.btn {
+  background: #0ea5e9;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background: #38bdf8;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #38bdf8;
+}
+
+/* 🔍 SEARCH BAR */
+.input {
+  background: #020617;
+  border: 1px solid #38bdf8;
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+  outline: none;
+
+  transition: all 0.2s ease;
+}
+
+.input:focus {
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+/* TABLE */
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background: #020617;
+  color: #38bdf8;
+}
+
+table td {
+  background: rgba(255,255,255,0.02);
+}
+
+/* Smooth transitions everywhere */
+* {
+  transition: all 0.25s ease-in-out;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
